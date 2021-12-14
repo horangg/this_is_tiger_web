@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.backimg {
+  position: absolute;
+}
+
+body {
+  background-color: #E5EBED;
+}
+
+.menubar {
+  display: block;
+}
+
+.thisism {
+  font-family: 'Prata', serif;
+  text-align: center;
+  font-size: 50px;
+  color: #333333;
+}
+
+.line1 {
+  position: relative;
+  top: -62px;
+  left: 37.5%;
+}
+
+.menu {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+
+.menuT {
+  font-family: 'GmarketSansLight';
+  font-size: 80px;
+  line-height: 50px;
+  letter-spacing: 4px;
+}
+
+.menuT:hover {
+  font-family: 'Prata', serif;
+}
