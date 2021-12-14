@@ -24,24 +24,24 @@
 
 ### 📱 컴포넌트
 
-- 로그인 버튼 
-- 메뉴 탭바
-- 맨 위로가기 버튼
-- 내 사진 슬라이더 
-- 내 프로젝트 연대기 컴포넌트 
+-메뉴 탭바
+-프로젝트 썸네일, 배치
+-사진 변환 슬라이더
+-메뉴 클릭 시 창 띄우기
+-마우스오버시 이미지 /이미지 생성
 
 <br>
 <br>
 
  <h1 align="center"> 컴포넌트 소개 </h1>
  
-## 📱 로그인 버튼 
+## 📱 메뉴 탭바 
 
 <br>
 
 | 이미지 | |
 |:-----:|:----|
-| <img src="https://media.giphy.com/media/5faqNWwEWRL0zxHoct/giphy.gif" width= 300> | <h2>Splash </h2> <br> 스플래시 화면을 `lottie-ios` 를 통해 적용하였습니다. <br>한 Loop 가 재생되고 로그인 화면으로 넘어갑니다. <br> splash 에서는 토큰의 세션이 만료되었는지에 대해 서버통신을 통해 확인합니다. <br> 만료가 되었거나 토큰이 없다면 로그인 화면으로, 유효한 토큰을 소유한 유저라면 바로 홈화면으로 넘어갑니다.  |
+| <img src="https://user-images.githubusercontent.com/94329609/146097516-e79b1071-9f93-4876-9ded-9b3180451b61.png" width= 300> | <h2>Splash </h2> <br> 메뉴바를 클릭하면 창이 까매지고 메뉴바 스크롤리 내려옵니다.|
 |<img src="https://media.giphy.com/media/QHi2ABdgVFYzxLLmjZ/giphy.gif" width= 300> | <h2>Login </h2> <br> 더 나은 레이아웃을 위해 로그인 버튼을 누르면 애니메이션과 함께 아이디, 비밀번호 란이 보여집니다. <br> 아이디 혹은 비밀번호를 적지 않았거나 옳지 않은 값이 들어간다면 빨간 경고 글씨가 띄워집니다. |
 
 <div align="center">
