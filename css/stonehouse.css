@@ -1,0 +1,10 @@
+body {
+  background-color: #E5EBED;
+  margin: 0px;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}

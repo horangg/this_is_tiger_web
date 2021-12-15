@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #F0EAE0;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* width: 80%; */
+}
+
+.profileImg {
+  width: 41.6667vw;
+  margin-right: 2.0833vw;
+  padding-top: 0.6944vw;
+}
+
+.aboutT {
+  font-family: 'Prata', serif;
+  width: 40%;
+  display: inline;
+  position: relative;
+}
+
+.name {
+  font-size: 4.5139vw;
+  line-height: 2.7778vw;
+  font-weight: lighter;
+
+}
+
+.nick {
+  font-size: 2.7778vw;
+  line-height: 0.3472vw;
+  font-weight: lighter;
+}
+
+.bir {
+  font-size: 2.4306vw;
+  line-height: 0.0000vw;
+  font-weight: lighter;
+}
+
+.etc {
+  font-size: 1.7361vw;
+  line-height: 1.3889vw;
+  font-weight: lighter;
+}

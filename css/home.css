@@ -42,10 +42,10 @@ section {
 
 #Vector1 {
     position: relative;
+    vertical-align: middle;
     z-index: 0;
     width: 24.3056vw;
     top: -19.0972vw;
-    vertical-align: middle;
 }
 
 .ds {

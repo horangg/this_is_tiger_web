@@ -17,34 +17,38 @@ body {
 }
 
 .menubar {
-  display: block;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .thisism {
   font-family: 'Prata', serif;
   text-align: center;
-  font-size: 50px;
+  font-size: 3.4722vw;
   color: #333333;
 }
 
 .line1 {
-  position: relative;
-  top: -62px;
-  left: 37.5%;
+  position: absolute;
+  width: 23.5278vw;
+  top: 8vw;
 }
 
 .menu {
   display: block;
   text-align: center;
   position: relative;
-  top: -30px;
+  top: -2.0833vw;
 }
 
 .menuT {
   font-family: 'GmarketSansLight';
-  font-size: 80px;
-  line-height: 50px;
-  letter-spacing: 4px;
+  font-size: 5.5556vw;
+  line-height: 3.4722vw;
+  letter-spacing: 0.2778vw;
+  color: #333333;
 }
 
 .menuT:hover {
