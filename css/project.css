@@ -13,61 +13,103 @@ body {
   margin: 0;
 }
 
-#proline {
+section {
   position: relative;
-  margin-left: 0.0000vw;
-  margin-top: 2.7778vw;
   width: 100vw;
-  border: 1px solid #333333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.projectT {
-  font-family: 'Prata', serif;
-  font-size: 6.2500vw;
-  margin-left: 4.1667vw;
+#topline {
+  position: absolute;
+  top: 3vw;
+  width: 99.8vw;
+  border: 1px solid #333333;
+  margin: 0;
 }
 
 #mdline {
-  position: relative;
-  margin-left: 0.0000vw;
-  margin-top: 16.6667vw;
-  width: 100vw;
-  border: 1px solid #333333;
-}
-
-.bigbox {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.pjmnBox {
-  display: flex;
-  width: 85%;
-  justify-content: space-around;
   position: absolute;
-  top: 19.2vw;
+  width: 99.8vw;
+  border: 1px solid #333333;
+  margin: 0;
 }
 
-
-.pjmenu {
-  display: inline;
-  text-align: center;
-}
-
-.year {
+.title {
   font-family: 'Prata', serif;
-  font-size: 3.4722vw;
-  margin-bottom: 1.3889vw;
+  font-size: 6.2500vw;
+  position: absolute;
+  top: 4.8611vw;
+  left: 5.5556vw;
+}
+
+.menuline {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pjDiamonds {
   width: 6.9444vw;
 }
 
-.pjeng {
+.line {
+  width: 75vw;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.bigbox {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.m1 {
+  left: 11.4583vw;
+}
+
+.m2 {
+  left: 28.9583vw;
+}
+
+.m3 {
+  left: 44.4583vw;
+}
+
+.m4 {
+  right: 28.4583vw;
+}
+
+.m5 {
+  right: 10.0583vw;
+}
+
+.pjmenu {
+  height: 300px;
   font-family: 'Prata', serif;
+  display: inline-block;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  top: 19.9444vw
+}
+
+.year {
+  font-size: 3.4722vw;
+}
+
+.pjeng {
+  margin-top: 8.9444vw;
   font-size: 2.7778vw;
   line-height: 2.7778vw;
-  margin-top: 2.0833vw;
 }

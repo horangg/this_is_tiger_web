@@ -10,20 +10,72 @@
 
 body {
   background-color: #F0EAE0;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .aboutMe {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
   /* width: 80%; */
 }
 
+.imgGroup {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0px 60px;
+}
+
+.blackdot img {
+  position: absolute;
+  width: 10.2083vw;
+}
+
+.blackdot :first-child {
+  bottom: -7vw;
+  right: 4vw;
+}
+
+.blackdot :last-child {
+  top: -1.8vw;
+  left: -1.8vw;
+}
+
+.whitedot img {
+  position: absolute;
+  width: 6.5972vw;
+}
+
+.whitedot :first-child {
+  bottom: -0.1vw;
+  right: 1vw;
+}
+
+#oval {
+  position: absolute;
+  top: -2vw;
+  left: 2vw;
+  width: 25.5917vw;
+  height: 40.5389vw;
+  border: 3px solid #333333;
+  border-radius: 100%;
+  transform: rotate(-30deg)
+}
+
 .profileImg {
-  width: 41.6667vw;
-  margin-right: 2.0833vw;
-  padding-top: 0.6944vw;
+  width: 30.6667vw;
 }
 
 .aboutT {
@@ -31,24 +83,24 @@ body {
   width: 40%;
   display: inline;
   position: relative;
+  margin: 0px 60px;
+
 }
 
 .name {
   font-size: 4.5139vw;
-  line-height: 2.7778vw;
+  line-height: 4.2778vw;
   font-weight: lighter;
 
 }
 
 .nick {
   font-size: 2.7778vw;
-  line-height: 0.3472vw;
   font-weight: lighter;
 }
 
 .bir {
   font-size: 2.4306vw;
-  line-height: 0.0000vw;
   font-weight: lighter;
 }
 

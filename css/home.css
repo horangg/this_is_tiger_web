@@ -4,14 +4,14 @@
 body {
     background-color: #E5EBED;
     margin: 0px;
-    /* display: flex; */
-    flex-direction: column-reverse;
 }
 
 section {
     position: relative;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 /* h1 {} */
@@ -46,6 +46,7 @@ section {
     z-index: 0;
     width: 24.3056vw;
     top: -19.0972vw;
+    left: -1.2vw;
 }
 
 .ds {

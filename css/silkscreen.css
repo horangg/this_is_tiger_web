@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background: radial-gradient(circle, #C892AB, #F0EAE0 70%)
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  font-size: 6.2500vw;
+  position: absolute;
+  top: 3.3611vw;
+  left: 6.5556vw;
+}
+
+.menu {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  top: 2vw;
+  right: 2vw;
+}
+
+.menu :hover {
+  cursor: pointer;
+}
+
+.menu img {
+  width: 5.8vw;
+  height: 5.8vw;
+}
+
+.menu div {
+  position: absolute;
+  font-family: 'GmarketSansLight';
+  color: white;
+  line-height: 0.1vw;
+  font-size: 1.3833vw;
+  top: 1.0002vw;
+}
+
+.address {
+  position: absolute;
+  left: -2.7778vw;
+  font-family: 'GmarketSansLight';
+  font-size: 1.8833vw;
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.diamonds img {
+  z-index: 100;
+  position: absolute;
+}
+
+.diamonds :first-child {
+  right: 8.3333vw;
+  bottom: 13.1944vw;
+  width: 234px;
+}
+
+.diamonds :nth-child(2) {
+  left: 14.3333vw;
+  bottom: 70px;
+  width: 229px;
+}
+
+.diamonds :last-child {
+  right: 21.3333vw;
+  top: 10vw;
+  width: 115px;
+}
+
+.silkbox {
+  width: 44.4722vw;
+  height: 18.2222vw;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #000000;
+  position: absolute;
+  left: 14.3333vw;
+  top: 14.8889vw
+}
+
+.silkbox :hover {
+  cursor: pointer;
+}
+
+.imgbox {
+  width: 44.4722vw;
+  height: 18.2222vw;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #000000;
+  position: absolute;
+  right: 8.3333vw;
+  bottom: 6.2500vw;
+}
+
+.imgbox :hover {
+  cursor: pointer;
+}
+
+.Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
