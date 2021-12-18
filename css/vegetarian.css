@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+
+body {
+  background-color: #F0EAE0;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  font-size: 6.0500vw;
+  position: absolute;
+  top: 3.5611vw;
+  left: 5.0556vw;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  top: 2vw;
+  right: 2vw;
+}
+
+.menu :hover {
+  cursor: pointer;
+}
+
+.menu img {
+  width: 5.8vw;
+  height: 5.8vw;
+}
+
+.menu div {
+  position: absolute;
+  font-family: 'GmarketSansLight';
+  color: white;
+  line-height: 0.1vw;
+  font-size: 1.3833vw;
+  top: 1.0002vw;
+}
+
+.story {
+  position: relative;
+  top: -2vw;
+  font-family: 'Prata', serif;
+  font-size: 6.2500vw;
+}
+
+.sub {
+  position: relative;
+  top: -2vw;
+  font-family: 'Assistant', sans-serif;
+  font-size: 2.2778vw;
+}
+
+.storytxt {
+  position: relative;
+  top: 10px;
+  font-size: 1.8vw;
+  font-family: 'GmarketSansLight';
+}
+
+.yumbox {
+  width: 100vw;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.yummy {
+  width: 100vw;
+  display: inline;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: -200px;
+}
+
+.yum {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 360px;
+  text-align: center;
+}
+
+.yum1,
+.yum2,
+.yum3 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  /* margin: 3px; */
+  position: relative;
+}
+
+
+.oval {
+  position: absolute;
+  margin: 24px;
+  width: 340px;
+  height: 217px;
+  border: 0.2083vw solid #000000;
+  border-radius: 100%;
+  transform: rotate(50deg)
+}
+
+.imgbox {
+  width: 399px;
+  height: 255px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #000000;
+  transform: rotate(-50deg);
+  z-index: 50;
+}
+
+.Img {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 5vw;
+  left: 7vw;
+}
+
+.arrow img {
+  width: 5.5vw;
+}

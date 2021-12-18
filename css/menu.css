@@ -8,12 +8,18 @@
   font-style: normal;
 }
 
-.backimg {
-  position: absolute;
-}
-
 body {
   background-color: #E5EBED;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 99vh;
+  display: inline-flex;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .menubar {
@@ -21,6 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
 }
 
 .thisism {
@@ -37,10 +44,13 @@ body {
 }
 
 .menu {
+  width: 80vw;
+  height: auto;
   display: block;
+  justify-content: center;
   text-align: center;
-  position: relative;
-  top: -2.0833vw;
+  position: absolute;
+  top: 9.8vw;
 }
 
 .menuT {

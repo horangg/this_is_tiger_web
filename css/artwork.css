@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background: radial-gradient(circle, #B7C8CE, #E5E8E9 70%);
+  background-attachment: fixed;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  font-size: 6.0500vw;
+  position: absolute;
+  top: 3.5611vw;
+  left: 5.0556vw;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  top: 2vw;
+  right: 2vw;
+}
+
+.menu :hover {
+  cursor: pointer;
+}
+
+.menu img {
+  width: 5.8vw;
+  height: 5.8vw;
+}
+
+.menu div {
+  position: absolute;
+  font-family: 'GmarketSansLight';
+  color: white;
+  line-height: 0.1vw;
+  font-size: 1.3833vw;
+  top: 1.0002vw;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 5vw;
+  left: 3vw;
+}
+
+.arrow img {
+  width: 5vw;
+}
+
+.design {
+  font-family: 'Prata', serif;
+  font-size: 10.4167vw;
+  line-height: 12.5vw;
+  color: #e2c797;
+  text-shadow: -0.1389vw 0 #000, 0 0.1389vw #000, 0.1389vw 0 #000, 0 -0.1389vw #000;
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#moon {
+  right: 10px;
+  top: 100px;
+  width: 540px;
+  height: 600px;
+  border: 2px solid #000000;
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+}
+
+#moonimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

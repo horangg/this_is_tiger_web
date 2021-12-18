@@ -8,6 +8,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'HSBombaram';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JSongMyung-Regular-KO';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/JSongMyung-Regular-KO.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #E5EBED;
   margin: 0;
@@ -22,9 +36,37 @@ section {
   align-items: center;
 }
 
+.menu {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  top: 2vw;
+  right: 2vw;
+}
+
+.menu :hover {
+  cursor: pointer;
+}
+
+.menu img {
+  width: 5.8vw;
+  height: 5.8vw;
+}
+
+.menu div {
+  position: absolute;
+  font-family: 'GmarketSansLight';
+  color: white;
+  line-height: 0.1vw;
+  font-size: 1.3833vw;
+  top: 1.0002vw;
+}
+
 #topline {
   position: absolute;
-  top: 3vw;
+  top: 4vw;
   width: 99.8vw;
   border: 1px solid #333333;
   margin: 0;
@@ -112,4 +154,10 @@ section {
   margin-top: 8.9444vw;
   font-size: 2.7778vw;
   line-height: 2.7778vw;
+}
+
+.pjkr {
+  font-family: 'JSongMyung-Regular-KO';
+  /* font-weight: lighter; */
+  letter-spacing: 1px;
 }

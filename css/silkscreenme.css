@@ -24,6 +24,34 @@ section {
   justify-content: center;
 }
 
+.menu {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  top: 2vw;
+  right: 2vw;
+}
+
+.menu :hover {
+  cursor: pointer;
+}
+
+.menu img {
+  width: 5.8vw;
+  height: 5.8vw;
+}
+
+.menu div {
+  position: absolute;
+  font-family: 'GmarketSansLight';
+  color: white;
+  line-height: 0.1vw;
+  font-size: 1.3833vw;
+  top: 1.0002vw;
+}
+
 .star img {
   position: absolute;
   z-index: 100;
@@ -81,7 +109,6 @@ section {
   position: absolute;
   top: -13.8889vw;
   object-fit: cover;
-  transform: rotate(60deg);
 }
 
 .what {

@@ -8,6 +8,8 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
 body {
   background-color: #F0EAE0;
   margin: 0;
@@ -22,12 +24,42 @@ section {
   height: 100vh;
 }
 
+.menu {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  top: 2vw;
+  right: 2vw;
+}
+
+.menu :hover {
+  cursor: pointer;
+}
+
+.menu img {
+  width: 5.8vw;
+  height: 5.8vw;
+}
+
+.menu div {
+  position: absolute;
+  font-family: 'GmarketSansLight';
+  color: white;
+  line-height: 0.1vw;
+  font-size: 1.3833vw;
+  top: 1.0002vw;
+}
+
 .aboutMe {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  /* width: 80%; */
+  position: absolute;
+  top: -3.4722vw
+    /* width: 80%; */
 }
 
 .imgGroup {
@@ -35,7 +67,7 @@ section {
   justify-content: center;
   align-items: center;
   display: flex;
-  margin: 0px 60px;
+  margin: 0px 4.1667vw;
 }
 
 .blackdot img {
@@ -69,7 +101,7 @@ section {
   left: 2vw;
   width: 25.5917vw;
   height: 40.5389vw;
-  border: 3px solid #333333;
+  border: 0.2083vw solid #333333;
   border-radius: 100%;
   transform: rotate(-30deg)
 }
@@ -83,7 +115,7 @@ section {
   width: 40%;
   display: inline;
   position: relative;
-  margin: 0px 60px;
+  margin: 0vw 4.1667vw;
 
 }
 
@@ -97,15 +129,27 @@ section {
 .nick {
   font-size: 2.7778vw;
   font-weight: lighter;
+  font-family: 'Assistant', sans-serif;
+  letter-spacing: 0.1389vw;
 }
 
 .bir {
   font-size: 2.4306vw;
   font-weight: lighter;
+  font-family: 'Assistant', sans-serif;
+  letter-spacing: 1px;
 }
 
 .etc {
   font-size: 1.7361vw;
   line-height: 1.3889vw;
   font-weight: lighter;
+  font-family: 'Assistant', sans-serif;
+}
+
+.can {
+  position: absolute;
+  bottom: 2.0833vw;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.3889vw;
 }

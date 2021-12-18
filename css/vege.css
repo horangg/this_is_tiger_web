@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+
+body {
+  background-color: #E5EBED;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  font-size: 6.0500vw;
+  position: absolute;
+  top: 3.5611vw;
+  left: 5.0556vw;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  top: 2vw;
+  right: 2vw;
+}
+
+.menu :hover {
+  cursor: pointer;
+}
+
+.menu img {
+  width: 5.8vw;
+  height: 5.8vw;
+}
+
+.menu div {
+  position: absolute;
+  font-family: 'GmarketSansLight';
+  color: white;
+  line-height: 0.1vw;
+  font-size: 1.3833vw;
+  top: 1.0002vw;
+}
+
+.main {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 13vw;
+}
+
+.star img {
+  position: absolute;
+  z-index: 100;
+}
+
+.star :first-child {
+  width: 17.5153vw;
+  top: 15.8889vw;
+  left: 40.6389vw;
+  cursor: pointer;
+}
+
+.star :nth-child(2) {
+  width: 16.8056vw;
+  top: -6.9444vw;
+  left: 36.4722vw;
+  cursor: pointer;
+}
+
+.star :nth-child(3) {
+  width: 15.0694vw;
+  top: 4.0833vw;
+  right: 34.0833vw;
+  cursor: pointer;
+}
+
+.star :nth-child(4) {
+  width: 5.9167vw;
+  bottom: -4.4722vw;
+  right: 42.4167vw;
+}
+
+.star :nth-child(5) {
+  width: 5.9167vw;
+  bottom: 11.1111vw;
+  left: 38.2500vw;
+}
+
+.star :last-child {
+  width: 4.0417vw;
+  top: -6.9444vw;
+  left: 47.5833vw;
+}
+
+.circle {
+  width: 27.6528vw;
+}
+
+.address div {
+  position: absolute;
+  font-family: 'Assistant', sans-serif;
+  font-size: 2.6250vw;
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.address :first-child {
+  left: -10vw;
+  bottom: 23vw;
+}
+
+.address :last-child {
+  right: -12.5vw;
+  bottom: 25vw;
+}

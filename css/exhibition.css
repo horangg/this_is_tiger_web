@@ -22,24 +22,133 @@ section {
   display: flex;
 }
 
+.menu {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  top: 2vw;
+  right: 2vw;
+}
+
+.menu :hover {
+  cursor: pointer;
+}
+
+.menu img {
+  width: 5.8vw;
+  height: 5.8vw;
+}
+
+.menu div {
+  position: absolute;
+  font-family: 'GmarketSansLight';
+  color: white;
+  line-height: 0.1vw;
+  font-size: 1.3833vw;
+  top: 1.0002vw;
+}
+
 .title {
   font-family: 'Prata', serif;
   font-size: 6.2500vw;
   line-height: 7.2500vw;
   position: absolute;
-  top: 5.3611vw;
-  left: 6.5556vw;
+  top: 3.3611vw;
+  left: 5.5556vw;
 }
 
 .leftbox {
   display: flex;
   flex-direction: column-reverse;
-  margin: 70px;
+  margin: 8.3611vw 5.5556vw;
 }
 
 .selectbox {
   display: inline-block;
-  width: 620px;
-  height: 330px;
-  background-color: rosybrown;
+  width: 41.6667vw;
+  height: 20.8333vw;
+  /* background-color: rosybrown; */
+}
+
+.poster {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.0833vw;
+}
+
+.exhi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select,
+.name :hover {
+  cursor: pointer;
+}
+
+.squere {
+  width: 11.1111vw;
+  height: 11.1111vw;
+  border: black solid 0.2083vw;
+  /* position: absolute; */
+  z-index: 150;
+}
+
+.select {
+  position: relative;
+  height: 11.1111vw;
+  width: 27.7778vw;
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  position: absolute;
+  margin-top: 1.3889vw;
+  width: 27.7778vw;
+  height: 9.7222vw;
+  border: black solid 0.2083vw;
+  z-index: 3.4722vw;
+}
+
+.name {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'GmarketSansLight';
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  width: 23.9583vw;
+  height: 3.4722vw;
+  border: black solid 0.2083vw;
+  background-color: #F0EAE0;
+  z-index: 100;
+}
+
+.rightbox {
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+
+.bigphoto {
+  position: absolute;
+  width: 37.1528vw;
+  height: 48.3278vw;
+  border: 0.2083vw solid #000000;
+  overflow: hidden;
+}
+
+.bigImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
 }
