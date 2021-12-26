@@ -20,41 +20,13 @@ section {
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-}
-
-.menu {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  top: 2vw;
-  right: 2vw;
-}
-
-.menu :hover {
-  cursor: pointer;
-}
-
-.menu img {
-  width: 5.8vw;
-  height: 5.8vw;
-}
-
-.menu div {
-  position: absolute;
-  font-family: 'GmarketSansLight';
-  color: white;
-  line-height: 0.1vw;
-  font-size: 1.3833vw;
-  top: 1.0002vw;
 }
 
 .star img {
   position: absolute;
-  z-index: 100;
+  z-index: 10;
 }
 
 .star :first-child {
@@ -113,14 +85,14 @@ section {
 
 .what {
   position: absolute;
-  top: 9.9444vw;
+  top: 12.9444vw;
   left: 6.1667vw;
 }
 
 .why {
   position: absolute;
-  bottom: 15.9444vw;
-  right: 4.1667vw;
+  bottom: 6.9444vw;
+  right: 3.5vw;
 }
 
 .stitle {
@@ -133,5 +105,7 @@ section {
   margin-top: 2.0833vw;
   margin-left: 1.3889vw;
   font-family: 'GmarketSansLight';
-  font-size: 1.3889vw;
+  font-size: 1.3vw;
+  position: relative;
+  left: -0.6944vw;
 }

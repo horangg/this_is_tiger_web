@@ -64,3 +64,69 @@ section {
 .menuT:hover {
   font-family: 'Prata', serif;
 }
+
+.menuT:hover .check {
+  visibility: visible;
+}
+
+.menuT:hover .check1 {
+  visibility: visible;
+}
+
+.menuT:hover .check2 {
+  visibility: visible;
+}
+
+.menuT:hover .check3 {
+  visibility: visible;
+}
+
+.menuT:hover .check4 {
+  visibility: visible;
+}
+
+
+.check {
+  position: absolute;
+  z-index: -10;
+  width: 300px;
+  top: 20px;
+  left: 390px;
+  visibility: hidden;
+}
+
+.check1 {
+  position: absolute;
+  z-index: -10;
+  width: 350px;
+  top: 140px;
+  left: 360px;
+  visibility: hidden;
+}
+
+.check2 {
+  position: absolute;
+  z-index: -10;
+  width: 530px;
+  top: 250px;
+  left: 260px;
+  visibility: hidden;
+}
+
+.check3 {
+  position: absolute;
+  z-index: -10;
+  width: 470px;
+  top: 360px;
+  left: 300px;
+  visibility: hidden;
+}
+
+.check4 {
+  position: absolute;
+  z-index: -10;
+  width: 450px;
+  bottom: 40px;
+  left: 300px;
+  visibility: hidden;
+}

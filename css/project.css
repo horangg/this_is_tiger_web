@@ -33,35 +33,13 @@ section {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
-.menu {
-  position: absolute;
+.center {
   display: flex;
   align-items: center;
-  justify-content: center;
-  z-index: 100;
-  top: 2vw;
-  right: 2vw;
-}
-
-.menu :hover {
-  cursor: pointer;
-}
-
-.menu img {
-  width: 5.8vw;
-  height: 5.8vw;
-}
-
-.menu div {
-  position: absolute;
-  font-family: 'GmarketSansLight';
-  color: white;
-  line-height: 0.1vw;
-  font-size: 1.3833vw;
-  top: 1.0002vw;
+  width: 100vw;
 }
 
 #topline {
@@ -77,6 +55,7 @@ section {
   width: 99.8vw;
   border: 1px solid #333333;
   margin: 0;
+  z-index: -30;
 }
 
 .title {
@@ -104,35 +83,42 @@ section {
   position: absolute;
   display: flex;
   justify-content: space-between;
-  z-index: 100;
+  z-index: -10;
 }
 
 .bigbox {
   width: 100vw;
-  height: 100vh;
+  height: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
+  top: 130px;
+  z-index: 10;
 }
 
 .m1 {
-  left: 11.4583vw;
+  left: 11.9583vw;
+  z-index: 300;
 }
 
 .m2 {
   left: 28.9583vw;
+  z-index: 300;
 }
 
 .m3 {
+  z-index: 300;
   left: 44.4583vw;
 }
 
 .m4 {
+  z-index: 300;
   right: 28.4583vw;
 }
 
 .m5 {
+  z-index: 300;
   right: 10.0583vw;
 }
 
@@ -143,7 +129,7 @@ section {
   text-align: center;
   color: #000000;
   position: absolute;
-  top: 19.9444vw
+  /* top: 19.9444vw */
 }
 
 .year {

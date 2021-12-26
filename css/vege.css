@@ -22,7 +22,7 @@ section {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .title {
@@ -33,34 +33,6 @@ section {
   left: 5.0556vw;
 }
 
-.menu {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  top: 2vw;
-  right: 2vw;
-}
-
-.menu :hover {
-  cursor: pointer;
-}
-
-.menu img {
-  width: 5.8vw;
-  height: 5.8vw;
-}
-
-.menu div {
-  position: absolute;
-  font-family: 'GmarketSansLight';
-  color: white;
-  line-height: 0.1vw;
-  font-size: 1.3833vw;
-  top: 1.0002vw;
-}
-
 .main {
   width: 100vw;
   height: auto;
@@ -68,48 +40,29 @@ section {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 13vw;
+  top: 11vw;
 }
 
 .star img {
+  z-index: 10;
+}
+
+#star4 {
   position: absolute;
-  z-index: 100;
-}
-
-.star :first-child {
-  width: 17.5153vw;
-  top: 15.8889vw;
-  left: 40.6389vw;
-  cursor: pointer;
-}
-
-.star :nth-child(2) {
-  width: 16.8056vw;
-  top: -6.9444vw;
-  left: 36.4722vw;
-  cursor: pointer;
-}
-
-.star :nth-child(3) {
-  width: 15.0694vw;
-  top: 4.0833vw;
-  right: 34.0833vw;
-  cursor: pointer;
-}
-
-.star :nth-child(4) {
   width: 5.9167vw;
-  bottom: -4.4722vw;
-  right: 42.4167vw;
+  bottom: -2.4722vw;
+  right: 40.4167vw;
 }
 
-.star :nth-child(5) {
+#star5 {
+  position: absolute;
   width: 5.9167vw;
   bottom: 11.1111vw;
   left: 38.2500vw;
 }
 
-.star :last-child {
+#star6 {
+  position: absolute;
   width: 4.0417vw;
   top: -6.9444vw;
   left: 47.5833vw;
@@ -136,4 +89,107 @@ section {
 .address :last-child {
   right: -12.5vw;
   bottom: 25vw;
+}
+
+.pro {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.0153vw;
+  top: 15.8889vw;
+  left: 40.1389vw;
+  cursor: pointer;
+}
+
+.pro span {
+  position: absolute;
+  top: 150px;
+  font-family: 'prata', serif;
+  text-decoration: none;
+  font-size: 2.5em;
+  z-index: 40;
+  color: black;
+}
+
+.pro :hover>.black {
+  visibility: visible;
+}
+
+.yum span {
+  font-family: 'prata', serif;
+  position: absolute;
+  text-decoration: none;
+  font-size: 3em;
+  top: 10.4167vw;
+  z-index: 40;
+  color: black;
+}
+
+.yum {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.3056vw;
+  top: -6.9444vw;
+  left: 36.9722vw;
+  cursor: pointer;
+}
+
+.why span {
+  font-family: 'prata', serif;
+  position: absolute;
+  text-decoration: none;
+  font-size: 3em;
+  z-index: 40;
+  color: black;
+}
+
+.why {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 14.5694vw;
+  top: 4.0833vw;
+  right: 34.5833vw;
+  cursor: pointer;
+}
+
+.black2 {
+  position: absolute;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.black {
+  position: absolute;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.black1 {
+  position: absolute;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.star :hover>.black {
+  visibility: visible;
+}
+
+.star :hover>.black1 {
+  visibility: visible;
+}
+
+.star :hover>.black2 {
+  visibility: visible;
+}
+
+.star :hover>.diat {
+  color: white
 }

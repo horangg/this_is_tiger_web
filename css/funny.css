@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background: #F0EAE0;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  font-size: 6.0500vw;
+  position: absolute;
+  top: 3.5611vw;
+  left: 5.0556vw;
+}

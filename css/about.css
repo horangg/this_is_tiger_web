@@ -19,37 +19,10 @@ section {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   width: 100vw;
   height: 100vh;
-}
-
-.menu {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  top: 2vw;
-  right: 2vw;
-}
-
-.menu :hover {
-  cursor: pointer;
-}
-
-.menu img {
-  width: 5.8vw;
-  height: 5.8vw;
-}
-
-.menu div {
-  position: absolute;
-  font-family: 'GmarketSansLight';
-  color: white;
-  line-height: 0.1vw;
-  font-size: 1.3833vw;
-  top: 1.0002vw;
+  margin: 0;
 }
 
 .aboutMe {
@@ -58,8 +31,9 @@ section {
   align-items: center;
   height: 100%;
   position: absolute;
-  top: -3.4722vw
-    /* width: 80%; */
+  top: -3.4722vw;
+  z-index: -10;
+  /* width: 80%; */
 }
 
 .imgGroup {

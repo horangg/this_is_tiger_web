@@ -20,34 +20,9 @@ section {
   width: 100vw;
   height: 100vh;
   display: flex;
-}
-
-.menu {
-  position: absolute;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  z-index: 100;
-  top: 2vw;
-  right: 2vw;
-}
-
-.menu :hover {
-  cursor: pointer;
-}
-
-.menu img {
-  width: 5.8vw;
-  height: 5.8vw;
-}
-
-.menu div {
-  position: absolute;
-  font-family: 'GmarketSansLight';
-  color: white;
-  line-height: 0.1vw;
-  font-size: 1.3833vw;
-  top: 1.0002vw;
+  margin: 0;
+  overflow: hidden;
 }
 
 .title {
@@ -69,7 +44,6 @@ section {
   display: inline-block;
   width: 41.6667vw;
   height: 20.8333vw;
-  /* background-color: rosybrown; */
 }
 
 .poster {
@@ -83,7 +57,7 @@ section {
   justify-content: space-between;
 }
 
-.select,
+.select1,
 .name :hover {
   cursor: pointer;
 }
@@ -92,11 +66,16 @@ section {
   width: 11.1111vw;
   height: 11.1111vw;
   border: black solid 0.2083vw;
-  /* position: absolute; */
-  z-index: 150;
+  overflow: hidden;
 }
 
-.select {
+.squere img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.select1 {
   position: relative;
   height: 11.1111vw;
   width: 27.7778vw;
@@ -110,7 +89,14 @@ section {
   width: 27.7778vw;
   height: 9.7222vw;
   border: black solid 0.2083vw;
-  z-index: 3.4722vw;
+  z-index: -3;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .name {
@@ -121,12 +107,11 @@ section {
   font-family: 'GmarketSansLight';
   font-size: 30px;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   width: 23.9583vw;
   height: 3.4722vw;
   border: black solid 0.2083vw;
   background-color: #F0EAE0;
-  z-index: 100;
 }
 
 .rightbox {
@@ -151,4 +136,178 @@ section {
   height: 100%;
   position: absolute;
   object-fit: cover;
+}
+
+/* ---------------------------------------------------------------------- */
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupcontent {
+  background-color: #F0EAE0;
+  border: 0.2083vw solid black;
+  padding: 3.4722vw 3.4722vw;
+  text-align: center;
+  position: relative;
+  display: inline-flex;
+  width: 75.8333vw;
+  height: 39.375vw;
+  box-shadow: 0 0.6944vw 1.3889vw rgba(214, 146, 146, 0.19), 0 0.4167vw 60x rgba(0, 0, 0, 0.23);
+  z-index: 210;
+}
+
+.x {
+  cursor: pointer;
+  position: absolute;
+  top: -1.7361vw;
+  right: 1.3889vw;
+  font-size: 5.9444vw;
+}
+
+.popuptitle {
+  font-family: 'Prata', serif;
+  font-size: 5.0500vw;
+  line-height: 7.2500vw;
+  position: absolute;
+  top: 3vw;
+  /* left: 5.5556vw; */
+}
+
+.pamphlet {
+  width: 561.6px;
+  height: 29.1vw;
+  border: 0.17vw solid black;
+  position: absolute;
+  top: 12.1vw;
+  left: 5.5vw;
+  overflow: hidden;
+}
+
+.innerImg {
+  display: flex;
+}
+
+.innerImg img {
+  width: 561.6px;
+}
+
+.map {
+  width: 26.4375vw;
+  border: 0.17vw solid black;
+  position: absolute;
+  right: 5.5139vw;
+  top: 5.8vw
+}
+
+
+.next {
+  position: absolute;
+  top: 320px;
+  left: 613px;
+}
+
+.prev {
+  position: absolute;
+  top: 320px;
+  left: 31px;
+}
+
+.hidden3 {
+  display: none;
+}
+
+/* ------------------------------------------------------ */
+.popup2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupcontent2 {
+  position: absolute;
+  display: flex;
+  z-index: 210;
+  width: 840px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.pamphlet {
+  position: absolute;
+}
+
+.innerImg2 {
+  display: flex;
+}
+
+.innerImg2 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 840px;
+  object-fit: contain;
+  z-index: 210;
+}
+
+.next2 {
+  position: absolute;
+  top: 335px;
+  right: 100px;
+}
+
+.prev2 {
+  position: absolute;
+  left: 100px;
+  top: 335px;
+}
+
+.x2 {
+  cursor: pointer;
+  position: absolute;
+  top: 1.7361vw;
+  right: 3.8889vw;
+  font-size: 5.9444vw;
+  color: #F0EAE0;
+  z-index: 250;
+}
+
+.hidden2 {
+  display: none;
+}
+
+button {
+  font-size: 60px;
+  z-index: 250;
+  background-color: transparent;
+  border: none;
+  text-shadow: -0.1389vw 0#F0EAE0, 0 0.1389vw#F0EAE0, 0.1389vw 0#F0EAE0, 0 -0.1389vw#F0EAE0;
+  color: black;
+}
+
+button,
+button:active,
+button:focus {
+  text-shadow: -0.1389vw 0#F0EAE0, 0 0.1389vw#F0EAE0, 0.1389vw 0#F0EAE0, 0 -0.1389vw#F0EAE0;
+  color: black;
+}
+
+.popupoverlay1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 200;
 }

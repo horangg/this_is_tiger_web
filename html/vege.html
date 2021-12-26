@@ -1,41 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>This it tiger web</title>
+  <link rel="stylesheet" href="../css/menuhover.css">
   <link rel="stylesheet" href="../css/vege.css">
-  </head>
+</head>
 
-  <body>
-    <section>
-      <div class="menu">
-        <div>
-          <p>ME</p>
-          <p>NU</p>
-        </div>
+<body>
+  <section>
+    <div class="menu">
+      <div class="select" id="munu">
+        <p>ME<br />NU</p>
         <img src="../image/Star 3.svg">
       </div>
+    </div>
+    <div class="menuhover hidden">
+      <div class="popupoverlay"></div>
+      <ul>
+        <li><a href="../html/index.html">HOME</a></li>
+        <li><a href="../html/about.html">ABOUT</a></li>
+        <li><a href="../html/project.html">PROGECT</a></li>
+        <li><a href="../html/vege.html">VEGELIFE</a></li>
+        <li><a href="../html/artwork.html">ARTWORK</a></li>
+      </ul>
+    </div>
     <div class="title">
       <div>Vege-tarian</div>
     </div>
     <div class="main">
-
       <div class="star">
-        <img src="../image/star4.svg">
-        <img src="../image/star5.svg">
-        <img src="../image/star6.svg">
-        <img src="../image/star7.svg">
-        <img src="../image/star7.svg">
-        <img src="../image/star8.svg">
+        <a class="pro" href="../html/vegetarian.html">
+          <span class="diat">project</span>
+          <img src="../image/star4.svg">
+          <img class="black" src="../image/bstar.svg">
+        </a>
+        <a class="yum" href="../html/vegetarian.html#eat">
+          <span class="diat">yum</span>
+          <img src="../image/star5.svg">
+          <img class="black1" src="../image/bstar2.svg">
+        </a>
+        <a class="why" href="../html/vegetarian.html">
+          <span class="diat">why</span>
+          <img src="../image/star6.svg">
+          <img class="black2" src="../image/bstar1.svg">
+        </a>
+        <img id="star4" src="../image/star7.svg">
+        <img id="star5" src="../image/star7.svg">
+        <img id="star6" src="../image/star8.svg">
       </div>
       <img class="circle" src="../image/dotcircle.png"></img>
     </div>
-     <div class="address">
+    <div class="address">
       <div>Hello, I'm a vegetarian tiger</div>
       <div>Do you want to hear my story?</div>
     </div>
   </section>
+  <script type="text/javascript" src="../js/menuhover.js"></script>
 </body>
+
 </html>

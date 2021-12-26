@@ -8,17 +8,27 @@
   <title>This it tiger web</title>
   <script src="https://kit.fontawesome.com/8719e55cef.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="../css/menuhover.css">
 </head>
 
 <body>
   <section>
     <div class="menu">
-      <div>
-        <p>ME</p>
-        <p>NU</p>
+      <div class="select" id="munu">
+        <p>ME<br />NU</p>
+        <img src="../image/Star 3.svg">
       </div>
-      <img src="../image/Star 3.svg">
     </div>
+    <div class="menuhover hidden">
+        <div class="popupoverlay"></div>
+        <ul>
+          <li><a href="../html/index.html">HOME</a></li>
+          <li><a href="../html/about.html">ABOUT</a></li>
+          <li><a href="../html/project.html">PROGECT</a></li>
+          <li><a href="../html/vege.html">VEGELIFE</a></li>
+          <li><a href="../html/artwork.html">ARTWORK</a></li>
+        </ul>
+      </div>
     <div class="aboutMe">
       <div class="imgGroup">
         <div id="oval"></div>
@@ -33,8 +43,8 @@
       </div>
       <div class="aboutT">
         <div class="name">Kim </div>
-          <div class="name">soo hyun</div>
-          <br/>
+        <div class="name">soo hyun</div>
+        <br />
         <div class="nick">Tiger</div>
         <div class="bir">030212</div>
         <br />
@@ -45,9 +55,11 @@
       </div>
     </div>
     <div class="can">
-      <div>Clip studio | Adobe illustrator |  <i class="fab fa-figma"></i> figma | <i class="fab fa-html5"></i> html | <i class="fab fa-css3-alt"></i> css | <i class="fab fa-js"></i> js</div>
+      <div>Clip studio | Adobe illustrator | <i class="fab fa-figma"></i> figma | <i class="fab fa-html5"></i> html | <i
+          class="fab fa-css3-alt"></i> css | <i class="fab fa-js"></i> js</div>
     </div>
   </section>
+  <script type="text/javascript" src="../js/menuhover.js"></script>
 </body>
 
 </html>

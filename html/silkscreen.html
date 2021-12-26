@@ -6,18 +6,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>This it tiger web</title>
+  <link rel="stylesheet" href="../css/menuhover.css">
   <link rel="stylesheet" href="../css/silkscreen.css">
 </head>
 
 <body>
   <section>
     <div class="menu">
-      <div>
-        <p>ME</p>
-        <p>NU</p>
+      <div class="select" id="munu">
+        <p>ME<br />NU</p>
+        <img src="../image/Star 3.svg">
       </div>
-      <img src="../image/Star 3.svg">
     </div>
+    <div class="menuhover hidden">
+        <div class="popupoverlay"></div>
+        <ul>
+          <li><a href="../html/index.html">HOME</a></li>
+          <li><a href="../html/about.html">ABOUT</a></li>
+          <li><a href="../html/project.html">PROGECT</a></li>
+          <li><a href="../html/vege.html">VEGELIFE</a></li>
+          <li><a href="../html/artwork.html">ARTWORK</a></li>
+        </ul>
+      </div>
     <div class="title">
       <div>Silk screen</div>
     </div>
@@ -28,11 +38,13 @@
     </div>
     <div>
       <a href="./silkscreenme.html">
+        <div class="silkboxhover">silkscreen</div>
         <div class="silkbox">
           <img class="Img" src="../image/apolo.jpg">
         </div>
       </a>
       <a href="./exhibition.html">
+        <div class="imgboxhover">retro<br />exhibition</div>
         <div class="imgbox">
           <img class="Img" src="../image/choco.jpg">
         </div>
@@ -42,6 +54,7 @@
       <div>다 같이 돌자 동네 한 바퀴</div>
     </div>
   </section>
+  <script type="text/javascript" src="../js/menuhover.js"></script>
 </body>
 
 </html>

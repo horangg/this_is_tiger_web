@@ -22,9 +22,13 @@ section {
   height: 100vh;
   display: inline-flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
   margin: 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
 }
 
 .title {
@@ -33,34 +37,6 @@ section {
   position: absolute;
   top: 3.5611vw;
   left: 5.0556vw;
-}
-
-.menu {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  top: 2vw;
-  right: 2vw;
-}
-
-.menu :hover {
-  cursor: pointer;
-}
-
-.menu img {
-  width: 5.8vw;
-  height: 5.8vw;
-}
-
-.menu div {
-  position: absolute;
-  font-family: 'GmarketSansLight';
-  color: white;
-  line-height: 0.1vw;
-  font-size: 1.3833vw;
-  top: 1.0002vw;
 }
 
 .story {
@@ -127,7 +103,7 @@ section {
   margin: 24px;
   width: 340px;
   height: 217px;
-  border: 0.2083vw solid #000000;
+  border: 0.2083vw solid #333333;
   border-radius: 100%;
   transform: rotate(50deg)
 }
@@ -139,7 +115,7 @@ section {
   overflow: hidden;
   border: 0.2083vw solid #000000;
   transform: rotate(-50deg);
-  z-index: 50;
+  z-index: 10;
 }
 
 .Img {
@@ -157,4 +133,28 @@ section {
 
 .arrow img {
   width: 5.5vw;
+}
+
+#star1 {
+  position: absolute;
+  top: -40px;
+  left: 50px;
+  width: 65px;
+  z-index: 20;
+}
+
+#star2 {
+  position: absolute;
+  bottom: 90px;
+  right: 60px;
+  width: 65px;
+  z-index: 20;
+}
+
+#star3 {
+  position: absolute;
+  top: -40px;
+  left: 50px;
+  width: 65px;
+  z-index: 20;
 }

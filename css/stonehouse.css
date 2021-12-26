@@ -17,15 +17,19 @@ section {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   width: 100vw;
   height: 100vh;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+}
 
 .blackstar img {
   width: 6.4583vw;
-  z-index: 100;
+  z-index: 80;
   position: absolute;
 }
 
@@ -47,7 +51,7 @@ section {
 .whitestar img {
   width: 4.0139vw;
   position: absolute;
-  z-index: 100;
+  z-index: 80;
 }
 
 .whitestar :first-child {
@@ -148,34 +152,6 @@ section {
   transform: rotate(270deg);
 }
 
-.menu {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  top: 2vw;
-  right: 2vw;
-}
-
-.menu :hover {
-  cursor: pointer;
-}
-
-.menu img {
-  width: 5.8vw;
-  height: 5.8vw;
-}
-
-.menu div {
-  position: absolute;
-  font-family: 'GmarketSansLight';
-  color: white;
-  line-height: 0.1vw;
-  font-size: 1.3833vw;
-  top: 1.0002vw;
-}
-
 .arrow {
   position: absolute;
   bottom: 5vw;
@@ -188,7 +164,7 @@ section {
 
 .story {
   position: relative;
-  top: -16vw;
+  top: -3vw;
   font-family: 'Prata', serif;
   font-size: 6.2500vw;
 }
@@ -198,4 +174,7 @@ section {
   left: 2vw;
   font-size: 1.8vw;
   font-family: 'GmarketSansLight';
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

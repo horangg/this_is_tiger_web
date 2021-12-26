@@ -8,6 +8,7 @@
   font-style: normal;
 }
 
+
 body {
   width: 100vw;
   height: 100vh;
@@ -20,7 +21,7 @@ section {
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 
@@ -32,36 +33,9 @@ section {
   left: 6.5556vw;
 }
 
-.menu {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  top: 2vw;
-  right: 2vw;
-}
-
-.menu :hover {
-  cursor: pointer;
-}
-
-.menu img {
-  width: 5.8vw;
-  height: 5.8vw;
-}
-
-.menu div {
-  position: absolute;
-  font-family: 'GmarketSansLight';
-  color: white;
-  line-height: 0.1vw;
-  font-size: 1.3833vw;
-  top: 1.0002vw;
-}
-
 .address {
   position: absolute;
+  top: 30vw;
   left: -2.7778vw;
   font-family: 'GmarketSansLight';
   font-size: 1.8833vw;
@@ -71,7 +45,7 @@ section {
 }
 
 .diamonds img {
-  z-index: 100;
+  z-index: 30;
   position: absolute;
 }
 
@@ -101,11 +75,7 @@ section {
   border: 0.2083vw solid #000000;
   position: absolute;
   left: 14.3333vw;
-  top: 14.8889vw
-}
-
-.silkbox :hover {
-  cursor: pointer;
+  top: 14.8889vw;
 }
 
 .imgbox {
@@ -117,6 +87,50 @@ section {
   position: absolute;
   right: 8.3333vw;
   bottom: 6.2500vw;
+}
+
+.silkboxhover {
+  width: 44.4722vw;
+  height: 18.2222vw;
+  border-radius: 100%;
+  position: absolute;
+  border: 0.2083vw solid rgba(0, 0, 0, 0.6);
+  left: 14.3333vw;
+  top: 14.8889vw;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 5em;
+  font-family: 'prata', serif;
+  background-color: rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+
+
+.imgboxhover {
+  width: 44.4722vw;
+  height: 18.2222vw;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #000000;
+  position: absolute;
+  right: 8.3333vw;
+  bottom: 6.2500vw;
+  z-index: 10;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1em;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 5em;
+  font-family: 'prata', serif;
+  background-color: rgba(0, 0, 0, 0.55);
+  cursor: pointer;
 }
 
 .imgbox :hover {
