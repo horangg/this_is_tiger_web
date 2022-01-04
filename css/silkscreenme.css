@@ -72,7 +72,7 @@ section {
   overflow: hidden;
   border: 0.2083vw solid #000000;
   transform: rotate(-55deg);
-  z-index: 50;
+  z-index: 30;
 }
 
 .Img {

@@ -188,6 +188,7 @@ section {
   top: 12.1vw;
   left: 5.5vw;
   overflow: hidden;
+  position: absolute;
 }
 
 .innerImg {
@@ -244,9 +245,6 @@ section {
   overflow: hidden;
 }
 
-.pamphlet {
-  position: absolute;
-}
 
 .innerImg2 {
   display: flex;

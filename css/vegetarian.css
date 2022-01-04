@@ -22,28 +22,58 @@ section {
   height: 100vh;
   display: inline-flex;
   justify-content: center;
+  /* align-items: center; */
   text-align: center;
   margin: 0;
 }
 
-.center {
+.firstbox {
   display: flex;
   align-items: center;
-}
-
-.title {
-  font-family: 'Prata', serif;
-  font-size: 6.0500vw;
-  position: absolute;
-  top: 3.5611vw;
-  left: 5.0556vw;
+  justify-content: center;
+  width: 80vw;
+  height: 29.8611vw;
+  position: relative;
 }
 
 .story {
-  position: relative;
-  top: -2vw;
+  position: absolute;
+  top: 3.7vw;
   font-family: 'Prata', serif;
   font-size: 6.2500vw;
+}
+
+.sub {
+  position: relative;
+  top: 100vw;
+  font-family: 'Assistant', sans-serif;
+  font-size: 2.2778vw;
+}
+
+.storytxt {
+  position: absolute;
+  top: 17.4722vw;
+  font-size: 1.8vw;
+  font-family: 'GmarketSansLight';
+}
+
+.yummy {
+  width: 100vw;
+  display: inline;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 4vw;
+  left: 0;
+  font-family: 'Prata', serif;
+  font-size: 6.2500vw;
+}
+
+.ysub {
+  position: absolute;
+  top: 12.5vw;
+  font-family: 'Assistant', sans-serif;
+  font-size: 2.2778vw;
 }
 
 .sub {
@@ -53,28 +83,6 @@ section {
   font-size: 2.2778vw;
 }
 
-.storytxt {
-  position: relative;
-  top: 10px;
-  font-size: 1.8vw;
-  font-family: 'GmarketSansLight';
-}
-
-.yumbox {
-  width: 100vw;
-  display: inline;
-  align-items: center;
-  justify-content: center;
-}
-
-.yummy {
-  width: 100vw;
-  display: inline;
-  text-align: center;
-  justify-content: center;
-  position: relative;
-  top: -200px;
-}
 
 .yum {
   width: 100vw;
@@ -82,15 +90,15 @@ section {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 360px;
+  top: 25vw;
   text-align: center;
 }
 
 .yum1,
 .yum2,
 .yum3 {
-  width: 400px;
-  height: 400px;
+  width: 27.7778vw;
+  height: 27.7778vw;
   display: flex;
   justify-content: center;
   /* margin: 3px; */
@@ -100,17 +108,17 @@ section {
 
 .oval {
   position: absolute;
-  margin: 24px;
-  width: 340px;
-  height: 217px;
+  margin: 1.6667vw;
+  width: 23.6111vw;
+  height: 15.0694vw;
   border: 0.2083vw solid #333333;
   border-radius: 100%;
   transform: rotate(50deg)
 }
 
 .imgbox {
-  width: 399px;
-  height: 255px;
+  width: 27.7083vw;
+  height: 17.7083vw;
   border-radius: 100%;
   overflow: hidden;
   border: 0.2083vw solid #000000;
@@ -137,24 +145,24 @@ section {
 
 #star1 {
   position: absolute;
-  top: -40px;
-  left: 50px;
-  width: 65px;
+  top: -2.7778vw;
+  left: 3.4722vw;
+  width: 4.5139vw;
   z-index: 20;
 }
 
 #star2 {
   position: absolute;
-  bottom: 90px;
-  right: 60px;
-  width: 65px;
+  bottom: 6.25vw;
+  right: 4.1667vw;
+  width: 4.5139vw;
   z-index: 20;
 }
 
 #star3 {
   position: absolute;
-  top: -40px;
-  left: 50px;
-  width: 65px;
+  top: -2.7778vw;
+  left: 3.4722vw;
+  width: 4.5139vw;
   z-index: 20;
 }

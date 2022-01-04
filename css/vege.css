@@ -10,6 +10,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
 
+@font-face {
+  font-family: 'HSBombaram';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background-color: #E5EBED;
@@ -191,5 +197,122 @@ section {
 }
 
 .star :hover>.diat {
-  color: white
+  color: #E5EBED;
+}
+
+.m1tiger_content {
+  position: fixed;
+  top: 10%;
+  width: 70vw;
+  height: 40vw;
+  padding: 0 16px 16px 16px;
+  border: 3px solid black;
+  background-color: #F0EAE0;
+  border-radius: 2px;
+  z-index: 100;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.m1tiger_content a {
+  position: absolute;
+  top: -0.3vw;
+  right: 1.7vw;
+  color: black;
+  text-decoration: none;
+  font-size: 3em;
+  cursor: pointer;
+}
+
+.black_overlay1 {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 50;
+  -moz-opacity: 0.6;
+  opacity: .60;
+  filter: alpha(opacity=60);
+}
+
+.black_overlay2 {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 0;
+  -moz-opacity: 0.6;
+  opacity: .60;
+  filter: alpha(opacity=60);
+}
+
+.booktitle {
+  font-size: 3.5em;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  font-family: 'HSBombaram';
+}
+
+.book {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  width: 320px;
+  height: 420px;
+  border: 2px solid black;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Img {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  object-fit: cover;
+}
+
+.download {
+  width: 580px;
+  height: 80px;
+  background: radial-gradient(91.58% 91.58% at 50% 50%, rgba(137, 141, 142, 0.22) 0%, rgba(173, 175, 173, 0) 100%);
+  border: 2px dashed black;
+  position: absolute;
+  right: 5px;
+  bottom: -538px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Prata', serif;
+  font-size: 1em;
+  letter-spacing: 0em;
+}
+
+.booktext {
+  width: 565px;
+  height: 290px;
+  /* background-color: lightblue; */
+  position: absolute;
+  right: 30px;
+  top: 115px;
+  /* padding: 10px; */
+  font-family: 'GmarketSansLight';
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
 }

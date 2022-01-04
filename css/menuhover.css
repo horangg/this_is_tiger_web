@@ -5,7 +5,7 @@
   position: fixed;
   top: 0.17vw;
   right: 0.62vw;
-  /* z-index: 150; */
+  z-index: 50;
   font-family: 'GmarketSansLight';
 }
 
@@ -30,11 +30,12 @@
   position: absolute;
   width: 5.8vw;
   height: 5.8vw;
-  z-index: -10;
+  z-index: 150;
 }
 
 .select p {
   margin-top: 1.5972vw;
+  z-index: 151;
 }
 
 .menu div {
@@ -78,7 +79,7 @@
   right: 5px;
   font-family: 'GmarketSansLight';
   margin: 0;
-  z-index: 50;
+  z-index: 150;
 }
 
 .popupoverlay {

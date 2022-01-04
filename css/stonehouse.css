@@ -11,6 +11,8 @@
 body {
   background-color: #F0EAE0;
   margin: 0vw;
+  position: absolute;
+  z-index: -10;
 }
 
 section {
@@ -20,6 +22,7 @@ section {
   /* align-items: center; */
   width: 100vw;
   height: 100vh;
+  z-index: -110;
 }
 
 .center {
@@ -31,6 +34,7 @@ section {
   width: 6.4583vw;
   z-index: 80;
   position: absolute;
+  z-index: 30;
 }
 
 .blackstar :first-child {
@@ -51,7 +55,7 @@ section {
 .whitestar img {
   width: 4.0139vw;
   position: absolute;
-  z-index: 80;
+  z-index: 30;
 }
 
 .whitestar :first-child {
