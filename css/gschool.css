@@ -78,6 +78,7 @@ section {
   border: 0.2083vw solid #000000;
   margin: 4.1667vw;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .innerimg {
@@ -169,7 +170,7 @@ section {
   border: 3px solid black;
   background-color: #F0EAE0;
   border-radius: 2px;
-  z-index: 100;
+  z-index: 200;
   margin-top: 30px;
   display: flex;
   align-items: center;
@@ -194,7 +195,7 @@ section {
   border: 3px solid black;
   background-color: #F0EAE0;
   border-radius: 2px;
-  z-index: 100;
+  z-index: 200;
   margin-top: 30px;
   display: flex;
   align-items: center;
@@ -217,7 +218,7 @@ section {
   width: 100%;
   height: 100%;
   background-color: black;
-  z-index: 0;
+  z-index: 160;
   -moz-opacity: 0.6;
   opacity: .60;
   filter: alpha(opacity=60);
@@ -230,7 +231,7 @@ section {
   width: 100%;
   height: 100%;
   background-color: black;
-  z-index: 0;
+  z-index: 160;
   -moz-opacity: 0.6;
   opacity: .60;
   filter: alpha(opacity=60);

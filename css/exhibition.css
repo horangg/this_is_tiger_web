@@ -148,6 +148,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 200;
 }
 
 .popupcontent {
@@ -234,6 +235,7 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  z-index: 200;
 }
 
 .popupcontent2 {
@@ -307,5 +309,5 @@ button:focus {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 200;
+  z-index: 160;
 }
